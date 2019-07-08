@@ -1,16 +1,16 @@
 <div class="tab">
   <ul class="cards">
-    {% capture cats %}
-      {% for cat in site.categories %}
-        {{ cat | first }}
+    {% capture projs %}
+      {% for proj in site.projects %}
+        {{ proj | first }}
       {% endfor %}
     {% endcapture %}
-    {% assign sortedCats = cats | split: ' ' | sort %}
+    {% assign sortedProjs = projs | split: ' ' | sort %}
 
-    {% for category in sortedCats %}
+    {% for project in sortedProjs %}
       <li class="card">
-        {% assign cat_dir = site.category_dir | default: 'category' %}
-        <a class="card__link" href="{{ site.baseurl }}/{{ cat_dir }}/{{ category | downcase | slugify}}/">
+        {% assign proj_dir = project.id | default: 'project' %}
+        <a class="card__link" href="{{ site.baseurl }}/{{ proj_dir }}/">
           {% for post in site.categories[category] limit: 1 %}
             <div class="card__img">
               {% if post.image-sm %}

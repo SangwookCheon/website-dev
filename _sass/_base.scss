@@ -121,11 +121,15 @@ mark {
   padding: 0 0.5em;
 }
 
-#particles-js {
-  position: absolute;
+#particles-js{
+  /*position:absolute;*/
   width: 100%;
-  height: 100%;
-	// background: #ffffff
+  height: 70%;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
 }
 
 figure {

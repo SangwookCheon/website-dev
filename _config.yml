@@ -50,7 +50,7 @@ description: Sangwook's one-stop website for non-stop learning
 url: "https://sangwookcheon.githb.io"
 baseurl: ""
 twitter_username:
-default_img:
+default_img: https://i.imgur.com/SWLWNmu.jpg
 
 # Profile settings
 name: Sangwook Cheon

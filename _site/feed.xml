@@ -5,8 +5,8 @@
     <description>Sangwook's one-stop website for non-stop learning</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jul 2019 16:46:59 +0700</pubDate>
-    <lastBuildDate>Mon, 08 Jul 2019 16:46:59 +0700</lastBuildDate>
+    <pubDate>Mon, 08 Jul 2019 22:19:19 +0700</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2019 22:19:19 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -74,7 +74,7 @@ Hello
       </item>
     
       <item>
-        <title>Sample-1</title>
+        <title>Sample project name can be this long and complicated, but don't worry about it</title>
         <description>&lt;h1 id=&quot;h1-lskdjf&quot;&gt;H1 lskdjf&lt;/h1&gt;
 &lt;p&gt;A banana is an edible frui&lt;/p&gt;
 &lt;h2 id=&quot;h2-sdfsdf&quot;&gt;H2 sdfsdf&lt;/h2&gt;

@@ -6,10 +6,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.6.1)
-      execjs
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -211,9 +209,6 @@ GEM
       mini_portile2 (~> 2.4.0)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
-    octopress-autoprefixer (2.0.1)
-      autoprefixer-rails
-      jekyll (~> 3.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.1.1)
@@ -248,10 +243,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (~> 3.8.4)
   jekyll-paginate
   jekyll-sitemap
-  octopress-autoprefixer
   tzinfo-data
 
 BUNDLED WITH
